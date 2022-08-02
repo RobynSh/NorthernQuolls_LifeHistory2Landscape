@@ -1,6 +1,7 @@
 #############################################
+#                 STEP 1                    #  
 # DArTSeq SNPs: Visualisation and Filtering #
-#   Example Dataset: Dasyurus hallucatus    #
+#         Dataset: Dasyurus hallucatus      #
 #            Author: Robyn Shaw             #
 #             Date: 03/06/2022              #
 #############################################
