@@ -1,10 +1,9 @@
-# README
-
+# SNP Filtering
 <div align="center">
-    <img src="Data/Quoll.png" width="250px"</img> 
+    <img src="" width="250px"</img> 
 </div>
 <p align="center">
-<b>SNP Filtering: <i>Dasyurus hallucatus</i></b>
+<b><i>Dasyurus hallucatus</i></b>
 </p>
 
 
