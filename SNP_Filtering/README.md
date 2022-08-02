@@ -1,6 +1,6 @@
 # SNP Filtering
 <div align="center">
-    <img src="" width="250px"</img> 
+    <img src="Data/Quoll.png" width="250px"</img> 
 </div>
 <p align="center">
 <b><i>Dasyurus hallucatus</i></b>
