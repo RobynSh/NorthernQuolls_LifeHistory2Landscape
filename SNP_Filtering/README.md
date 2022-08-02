@@ -1,6 +1,4 @@
 # README
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
 
 <div align="center">
     <img src="Data/Quoll.png" width="250px"</img> 
@@ -25,3 +23,9 @@ This repository steps through the process of filtering DArTSeq SNPs (although th
 * Optional: Tasmanian devil chromosome info (*TasDevil7.1_Scaffold_Info.csv*)  
 
 Filtering outputs (plots, filtered data) can be found in the "Filtering_outputs" folder. The full process is outlined in detail in the pdf tutorial (*DArTSNPFilt.pdf*).
+
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
