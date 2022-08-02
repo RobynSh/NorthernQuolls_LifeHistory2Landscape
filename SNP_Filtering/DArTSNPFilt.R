@@ -5,6 +5,7 @@
 #             Date: 03/06/2022              #
 #############################################
 
+setwd("/Users/robynshaw/Google Drive/Work/Rcode_repos/NorthernQuolls_LifeHistory2Landscape/")
 
 ############
 # Packages #
@@ -37,13 +38,13 @@ library(details)
 # Define path to data folder, file names and variables 
 
 # Path to folder containing data
-datpath <- "/Users/robynshaw/Google Drive/Work/Rcode_repos/NorthernQuolls_LifeHistory2Landscape/SNP_Filtering/Data/"
+datpath <- "SNP_Filtering/Data/"
 
 # Define prefix for naming output files
 Outfile_Desc <- "Dhal"
 
 # Create a new directory/sub folder for saving outputs (if it doesn't already exist)
-outpath <- "/Users/robynshaw/Google Drive/Work/Rcode_repos/NorthernQuolls_LifeHistory2Landscape/SNP_Filtering/Filtering_outputs/"
+outpath <- "SNP_Filtering/Filtering_outputs/"
 ifelse(!dir.exists(file.path(outpath)), dir.create(file.path(file.path(outpath))), FALSE)
 
 
