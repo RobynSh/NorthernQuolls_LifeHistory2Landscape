@@ -956,7 +956,7 @@ dev.off()
 # Map showing location of samples, coloured by individual call rate
 
 # Read in map
-StudyMap <- readOGR(Map.path)
+StudyMap <- readOGR(paste0("../Rasters_Shapefiles/", Map.shp))
 
 # Process map for plotting
 StudyMap@data$id <- rownames(StudyMap@data)

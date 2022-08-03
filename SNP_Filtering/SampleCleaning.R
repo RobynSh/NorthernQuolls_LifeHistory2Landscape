@@ -1,7 +1,7 @@
 #############################################
-#                 STEP 2                    #  
+#                 STEP 3                    #  
 # Sample Cleaning: Duplicates and Relatives #
-#       Dataset: Dasyurus hallucatus        #
+#       Data set: Dasyurus hallucatus       #
 #            Author: Robyn Shaw             #
 #             Date: 14/02/2022              #
 #############################################
