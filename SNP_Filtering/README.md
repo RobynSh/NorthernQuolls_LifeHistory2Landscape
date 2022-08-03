@@ -5,11 +5,9 @@
 <b><i>Dasyurus hallucatus</i></b>
 </p>
 
-# SNP Filtering
+# Step 1: SNP Filtering
 
-Repository containing R code (*DArTSNPFilt.R*), tutorial, data, and outputs for DArTSeq (https://www.diversityarrays.com/) SNP visualisation and filtering. 
-
-This repository steps through the process of filtering DArTSeq SNPs (although the steps are relevant to any reduced representation SNP data) using the following files in the "Data" folder as the starting input:  
+Data/code required for carrying out SNP filtering, which is step 1 in the analysis pipeline for this study. This section contains the full R code (*DArTSNPFilt.R*), detailed tutorial (*DArTSNPFilt.pdf*), data (folder: *Data*), and outputs (folder: *Filtering_outputs*) for DArTSeq (https://www.diversityarrays.com/) SNP visualisation and filtering. It steps through the process of filtering DArTSeq SNPs (although the steps are relevant to any reduced representation SNP data) using the following files in the *Data* folder as the starting input:  
 
 ### Data supplied by DArT:
 * 1-row SNP csv (*Report_DDasy19-4717_1Row_NameEdit.csv*)  
@@ -19,15 +17,16 @@ This repository steps through the process of filtering DArTSeq SNPs (although th
 ### Study specific data:  
 * Sample meta-data csv (including ID, pop, lon/lat, other info; *Dasyurus_hallucatus_ind.metadata.csv*)  
 * Shape file of study region (*PilbaraIBRA.shp*)  
-* Optional: Tasmanian devil chromosome info (*TasDevil7.1_Scaffold_Info.csv*)  
+* Tasmanian devil chromosome info (*TasDevil7.1_Scaffold_Info.csv*)  
 
-Filtering outputs (plots, filtered data) can be found in the "Filtering_outputs" folder. The full process is outlined in detail in the pdf tutorial (*DArTSNPFilt.pdf*).
-
-
-# Sample cleaning
+Individual plots and the filtered data are saved in the *Filtering_outputs* folder.
 
 
+# Step 2: Sample cleaning
 
+Following SNP filtering, we carried out step 2 of the analysis pipeline (sample cleaning), by removing duplicated samples (in a few cases, a labeling issue meant that some samples were were accidentally sequenced twice), and highly related individuals. We calculate Wang's (2002) pairwise relatedness estimate and remove one individual from the pair if relatedness is greater >=0.25 to avoid biasing population genetic analyses. Finally, we also generate sample buffers of different distances (0 - 20km) to group samples in similar locations for later use.
+
+The full annoted R code (*SampleCleaning.R*) is provided, which uses the original sample meta-data file (*Dasyurus_hallucatus_ind.metadata.csv*) and the genlight (*gl.Dhal_FinalFilt.rdata*) generated in the step 1 (SNP filtering) as inputs.
 
 
 
