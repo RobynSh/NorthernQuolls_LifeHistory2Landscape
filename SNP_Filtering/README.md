@@ -7,7 +7,7 @@
 
 # Step 1: SNP Filtering
 
-Data/code required for carrying out SNP filtering, which is step 1 in the analysis pipeline for this study. This section contains the full R code (*DArTSNPFilt.R*), detailed tutorial (*DArTSNPFilt.pdf*), data (folder: *Data*), and outputs (folder: *Filtering_outputs*) for DArTSeq (https://www.diversityarrays.com/) SNP visualisation and filtering. It steps through the process of filtering DArTSeq SNPs (although the steps are relevant to any reduced representation SNP data) using the following files in the *Data* folder as the starting input:  
+This section contains data/code required for carrying out SNP filtering, which is step 1 in the analysis pipeline for this study. Files include: the full R code (*DArTSNPFilt.R*), detailed tutorial (*DArTSNPFilt.pdf*), data (folder: *Data*), and outputs (folder: *Filtering_outputs*) for DArTSeq (https://www.diversityarrays.com/) SNP visualisation and filtering. We step through the process of filtering DArTSeq SNPs (also relevant to any reduced representation SNP data) using the following files in the *Data* folder as the starting input:  
 
 ### Data supplied by DArT:
 * 1-row SNP csv (*Report_DDasy19-4717_1Row_NameEdit.csv*)  
@@ -22,11 +22,11 @@ Data/code required for carrying out SNP filtering, which is step 1 in the analys
 Individual plots and the filtered data are saved in the *Filtering_outputs* folder.
 
 
-# Step 2: Sample cleaning
+# Step 2: Sample Cleaning
 
-Following SNP filtering, we carried out step 2 of the analysis pipeline (sample cleaning), by removing duplicated samples (in a few cases, a labeling issue meant that some samples were were accidentally sequenced twice), and highly related individuals. We calculate Wang's (2002) pairwise relatedness estimate and remove one individual from the pair if relatedness is greater >=0.25 to avoid biasing population genetic analyses. Finally, we also generate sample buffers of different distances (0 - 20km) to group samples in similar locations for later use.
+Following SNP filtering, we carried out step 2 of the analysis pipeline (sample cleaning), by removing duplicated samples (i.e. samples accidentally sequenced twice due to a labeling issue), and highly related individuals. We calculate Wang's (2002) pairwise relatedness estimate and remove one individual from the pair if relatedness is greater >=0.25 to avoid biasing population genetic analyses. Finally, we also generate sample buffers of different distances (0 - 20km) to group samples in similar locations for later use.
 
-The full annoted R code (*SampleCleaning.R*) is provided, which uses the original sample meta-data file (*Dasyurus_hallucatus_ind.metadata.csv*) and the genlight (*gl.Dhal_FinalFilt.rdata*) generated in the step 1 (SNP filtering) as inputs.
+The full annoted R code (*SampleCleaning.R*) is provided, which uses the original sample meta-data file (*Data/Dasyurus_hallucatus_ind.metadata.csv*) and the genlight (*Filtering_outputs/gl.Dhal_FinalFilt.rdata*) generated in the step 1 (SNP filtering) as inputs.
 
 
 
