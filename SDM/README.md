@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="SDM_outputs/Paper_Figure3.png" width="400px"</img> 
+    <img src="SDM_outputs/Paper_Figure3.png" width="600px"</img> 
 </div>
 <p align="center">
-<b><i>Habitat Suitability Map</i></b>
+<b><i>Species Distribution Modelling: Generating a habitat suitability map for D. hallucatus</i></b>
 </p>
 
 # Step 1: Record Cleaning 
