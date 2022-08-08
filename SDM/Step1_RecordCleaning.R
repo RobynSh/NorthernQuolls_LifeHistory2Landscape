@@ -349,23 +349,13 @@ points(Dhal_Records.sp, bg='mediumseagreen', pch=21)
 
 # Most look fine - I'll remove no data values later using rasters (i.e. samples outside of raster extent)
 
-######################
-# Cleaning Complete! #
-######################
 
-# Initial record cleaning is now complete!
-# Resulting in 2438 records
-Records_Cleaned <- Records_rmBasisMeth
+################################################
+# Fine-tune cleaning for this project based on #
+#            years and resolution              #
+################################################
 
-write.csv(Records_Cleaned, "SDM/Data/Dh.ALA_NM_Clean.Pilbara.Records.csv", row.names = FALSE)
-
-
-
-###################################
-# Load in and explore record data #
-###################################
-
-records <- read.csv("SDM/Data/Dh.ALA_NM_Clean.Pilbara.Records.csv")
+records <- Records_rmBasisMeth
 nrow(records) # 2438
 
 # Dates:
