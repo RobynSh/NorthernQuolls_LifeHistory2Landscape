@@ -1,0 +1,38 @@
+NAME,FAMILY,GENUS,SPECIES,Common_name,Correct_Distribution,CWR(35_4200g),Weight
+Antechinomys laniger,Dasyuridae,Antechinomys,laniger,Kultarr,Edge,<,22
+Bettongia lesueur,Potoroidae,Bettongia,lesueur,Burrowing bettong,Islands,Y,1300
+Bettongia lesueur subsp. lesueur,Potoroidae,Bettongia,lesueur,Burrowing bettong,Islands,Y,1300
+Dasycercus blythi,Dasyuridae,Dasycercus,blythi,Brush-tailed mulgara,Y,Y,190
+Dasycercus sp.,Dasyuridae,Dasycercus,sp.,Brush-tailed mulgara,Y,Y,100
+Dasykaluta rosamondae,Dasyuridae,Dasykaluta,rosamondae,Little red kaluta,Y,Y,30
+Dasyurus hallucatus,Dasyuridae,Dasyurus,hallucatus,Northern quoll,Y,Y,520
+Lagorchestes conspicillatus,Macropodidae,Lagorchestes,conspicillatus,Spectacled hair-wallaby,Y,Y,4500
+Lagorchestes conspicillatus subsp. conspicillatus,Macropodidae,Lagorchestes,conspicillatus,Spectacled hair-wallaby,Y,Y,4500
+Lagorchestes conspicillatus subsp. leichardti,Macropodidae,Lagorchestes,conspicillatus,Spectacled hair-wallaby,Y,Y,4500
+Lagostrophus fasciatus subsp. fasciatus,Macropodidae,Lagostrophus,fasciatus,Banded hair-wallaby,Islands,Y,4500
+Leggadina lakedownensis,Muridae,Leggadina,lakedownensis,Northern short-tailed mouse,Y,Y,18
+Macrotis lagotis,Thylacomyidae,Macrotis,lagotis,Bilby,Y,Y,1600
+Ningaui ridei,Dasyuridae,Ningaui,ridei,Wongai ningaui,Edge,<,8.5
+Ningaui timealeyi,Dasyuridae,Ningaui,timealeyi,Pilbara ningaui,Y,<,6.4
+Notomys alexis,Muridae,Notomys,alexis,Spinifex hopping mouse,Y,Y,32
+Planigale ingrami,Dasyuridae,Planigale,ingrami,Planigale unknown sp,Y,<,6.3
+Planigale maculata,Dasyuridae,Planigale,maculata,Planigale unknown sp,Y,<,11
+Planigale sp. nov.,Dasyuridae,Planigale,sp. nov.,Planigale unknown sp,Y,<,11
+Pseudantechinus roryi,Dasyuridae,Pseudantechinus,roryi,Rory's pseudantechinus,Y,<,41
+Pseudantechinus woolleyae,Dasyuridae,Pseudantechinus,woolleyae,Woolley's pseudantechinus,Y,Y,41
+Pseudomys chapmani,Muridae,Pseudomys,chapmani,Western pebble-mouse,Y,<,11
+Pseudomys delicatulus,Muridae,Pseudomys,delicatulus,Delicate mouse,Y,<,8.6
+Pseudomys desertor,Muridae,Pseudomys,desertor,Desert mouse,Y,Y,37
+Pseudomys hermannsburgensis,Muridae,Pseudomys,hermannsburgensis,Sandy inland mouse,Y,<,13
+Sminthopsis crassicaudata,Dasyuridae,Sminthopsis,crassicaudata,Fat-tailed dunnart,Edge,<,15
+Sminthopsis hirtipes,Dasyuridae,Sminthopsis,hirtipes,Hairy-footed dunnart,Edge,<,15
+Sminthopsis longicaudata,Dasyuridae,Sminthopsis,longicaudata,Long-tailed dunnart,Y,<,18
+Sminthopsis macroura,Dasyuridae,Sminthopsis,macroura,Strip-faced dunnart,Y,<,21
+Sminthopsis ooldea,Dasyuridae,Sminthopsis,ooldea,Ooldea dunnart,Y,<,12
+Sminthopsis youngsoni,Dasyuridae,Sminthopsis,youngsoni,Lesser hairy-footed dunnart,Y,<,11
+Trichosurus vulpecula,Phalangeridae,Trichosurus,vulpecula,Common brushtail possum,Y,Y,2400
+Trichosurus vulpecula subsp. Arnhemensis,Phalangeridae,Trichosurus,vulpecula,Common brushtail possum,Y,Y,2400
+Trichosurus vulpecula subsp. vulpecula,Phalangeridae,Trichosurus,vulpecula,Common brushtail possum,Y,Y,2400
+Zyzomys argurus,Muridae,Zyzomys,argurus,Common rock-rat,Y,Y,40
+Notoryctes sp.,Notoryctidae,Notoryctes,sp.,Marsupial Mole,Edge,Y,55
+Notoryctes sp.,Notoryctidae,Notoryctes,caurinus,Marsupial Mole,Edge,Y,55
