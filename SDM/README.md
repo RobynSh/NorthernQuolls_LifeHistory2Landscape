@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="../Figures/Figure3.png" width="400px"</img> 
+    <img src="SDM_outputs/Paper_Figure3.png" width="400px"</img> 
 </div>
 <p align="center">
 <b><i>Habitat Suitability Map</i></b>
@@ -54,6 +54,9 @@ The R code *Step2_RunMaxEnt.R* steps through the process of:
   - *Response_AUC_Uni.final.bestCV.pdf* - Univariate response curves for the final model
   - *Tuned.CV.VarSel_reduced.ROC.pdf* - ROC Curves for each CV fold for the model after correlated variables dropped, hyperparameters tuned and low importance variables dropped 
   - *Tuned.CV.VarSel.ROC.pdf* - ROC Curves for each CV fold for the model after correlated variables dropped and hyperparameters tuned
+
+
+**Note that the best performing model presented in the paper is from raster set 3.**
 
 
 &nbsp;
