@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="SDM/SDM_outputs/Paper_Figure3.png" width="400px"</img> 
+    <img src="SDM_outputs/Paper_Figure3.png" width="400px"</img> 
 </div>
 <p align="center">
 <b><i>Habitat Suitability Map</i></b>
