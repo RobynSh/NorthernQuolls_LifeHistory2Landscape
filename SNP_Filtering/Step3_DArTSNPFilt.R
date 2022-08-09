@@ -1,5 +1,5 @@
 #############################################
-#                 STEP 2                    #  
+#                 STEP 3                    #  
 # DArTSeq SNPs: Visualisation and Filtering #
 #         Data set: Dasyurus hallucatus     #
 #            Author: Robyn Shaw             #

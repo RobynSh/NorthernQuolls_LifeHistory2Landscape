@@ -1,5 +1,5 @@
 #############################################
-#                 STEP 3                    #  
+#                 STEP 4                    #  
 # Sample Cleaning: Duplicates and Relatives #
 #       Data set: Dasyurus hallucatus       #
 #            Author: Robyn Shaw             #
@@ -32,7 +32,7 @@ library(RColorBrewer)
 Dh.Metadata <- read.csv("SNP_Filtering/Data/Dasyurus_hallucatus_ind.metadata.csv", stringsAsFactors = FALSE)
 
 # Read in final genlight from 
-# Step 1: SNP Filtering
+# Step 3: SNP Filtering
 load("SNP_Filtering/Filtering_outputs/gl.Dhal_FinalFilt.rdata")
 
 # Remove poor quality individuals from meta-data that were removed during genlight filtering
