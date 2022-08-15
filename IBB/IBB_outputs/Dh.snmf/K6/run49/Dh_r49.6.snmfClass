@@ -1,0 +1,5 @@
+new("snmfClass", directory = "K6/run49/", snmfClass.file = "Dh_r49.6.snmfClass", 
+    K = 6L, run = 49L, CPU = 1L, seed = 2042971678L, alpha = 10, 
+    percentage = 0.05, I = 0L, iterations = 1000L, entropy = TRUE, 
+    tolerance = 1e-05, crossEntropy = 0.666922829445521, ploidy = 2L, 
+    Q.input.file = "", Q.output.file = "Dh_r49.6.Q", G.output.file = "Dh_r49.6.G")
