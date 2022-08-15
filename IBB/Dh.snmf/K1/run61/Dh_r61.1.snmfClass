@@ -1,5 +1,0 @@
-new("snmfClass", directory = "K1/run61/", snmfClass.file = "Dh_r61.1.snmfClass", 
-    K = 1L, run = 61L, CPU = 1L, seed = 2040197912L, alpha = 10, 
-    percentage = 0.05, I = 0L, iterations = 1000L, entropy = TRUE, 
-    tolerance = 1e-05, crossEntropy = 0.665226942532325, ploidy = 2L, 
-    Q.input.file = "", Q.output.file = "Dh_r61.1.Q", G.output.file = "Dh_r61.1.G")
