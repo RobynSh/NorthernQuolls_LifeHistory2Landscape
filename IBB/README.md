@@ -2,7 +2,7 @@
 <b><i>Isolation-By-Distance: Genetic clustering analysis and population genetic summary statistics for D. hallucatus</i></b>
 </p>
 <div align="center">
-    <img src="IBB_outputs/Paper_Figure4.png" width="700px"</img> 
+    <img src="IBB_outputs/Paper_Figure4.png" width="500px"</img> 
 </div>
 
 
@@ -53,6 +53,7 @@ The R code *Step6_Genalex.GENHET.R* documents the process of:
 
 ### Input files:
 * The Genlight output during Step 5 (*IBB_outputs/Cleaned.Unrelated.RmDup.gl.Dh_ClustInfo.rdata*), where samples have been thinned to remove multiple individuals per location (i.e. duplicated coordinates).
+* The original genlight object (*Cleaned.Unrelated.gl.Dh.rdata*) after SNP filtering and sample cleaning, with associated metadata (*Cleaned.Unrelated.Ind.metadata.Dh.csv*), imported from the *SNP_Filtering/SampleClean_outputs* folder.
 * *Dh.HWE.Filt.genalex.xlsx* - Excel workbook containing full Genalex analysis (i.e. read back in after summary statistics and mantel test were performed outside of R).
 
 
