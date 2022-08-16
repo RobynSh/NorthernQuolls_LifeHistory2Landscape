@@ -306,8 +306,9 @@ LocNames <- str_replace(LocNames, "a", "")
 # Run GENHET function
 IndHet <- GENHET(dat = GenHet, estimfreq = "T", locname = LocNames)
 
-# Convert to data frame
+# Convert to data frame and add coordinates
 IndHet.df <- data.frame(IndHet, stringsAsFactors = FALSE)
+IndHet.df <- cbind(IndHet.df, Dh.gl@other$ind.metrics[match(IndHet.df$sampleid, Dh.gl@other$ind.metrics$id), c("UTMX", "UTMY")])
 # Bring over Buffer info
 IndHet.df <- cbind(IndHet.df, Dh.gl@other$ind.metrics[match(IndHet.df$sampleid, Dh.gl@other$ind.metrics$id), c("pop", "Buffer_15km")])
 # Pre-pend with "B15" to denote 15km buffer 
@@ -317,10 +318,13 @@ IndHet.df$Buffer_15km[IndHet.df$pop == "Dolphin Island"] <- "B15.00"
 # Classify as numeric for calculating the mean (currently "character")
 IndHet.df$PHt <- as.numeric(IndHet.df$PHt)
 
-# Group by pair and then take the mean
-IndHet.df.mean <- IndHet.df[, c("Buffer_15km", "PHt")] %>%
+# Group by buffer and then take the mean
+IndHet.df.mean <- IndHet.df[, c("Buffer_15km", "PHt", "UTMX", "UTMY")] %>%
   group_by(Buffer_15km) %>%
-  summarise_all(mean)
+  summarise_all(mean) 
+
+# Add in sample size per buffer
+IndHet.df.mean$n <- as.data.frame(table(IndHet.df$Buffer_15km))$Freq[match(as.data.frame(table(IndHet.df$Buffer_15km))$Var1, IndHet.df.mean$Buffer_15km)]
 
 # Get SD for means
 IndHet.df.mean$PHt.HotCold <- (IndHet.df.mean$PHt - mean(IndHet.df.mean$PHt))/sd(IndHet.df.mean$PHt)
