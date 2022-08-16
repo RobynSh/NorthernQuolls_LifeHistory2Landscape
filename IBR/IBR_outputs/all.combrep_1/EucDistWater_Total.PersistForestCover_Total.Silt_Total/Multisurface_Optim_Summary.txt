@@ -1,0 +1,106 @@
+Summary from multisurface optimization run conducted on 2022-02-24 
+ --- GA package summary output ---  
+
+
+── [1mGenetic Algorithm[22m ─────────────────── 
+
+GA settings: 
+Type                  =  real-valued 
+Population size       =  210 
+Number of generations =  1000 
+Elitism               =  10 
+Crossover probability =  0.85 
+Mutation probability  =  0.125 
+Search domain = 
+        x1   x2      x3   x4   x5      x6   x7   x8      x9
+lower 1.00  0.5 1.0e-03 1.00  0.5 1.0e-03 1.00  0.5 1.0e-03
+upper 9.99 14.5 2.5e+03 9.99 14.5 2.5e+03 9.99 14.5 2.5e+03
+Suggestions = 
+            x1        x2        x3       x4        x5        x6       x7
+1     9.138863  9.427744 2332.6557 5.632585  8.922491  970.9954 5.123953
+2     7.394675 11.940961 1772.6667 6.396032  6.501801  686.2136 5.397202
+3     7.423277  7.824723  953.3541 5.918063  8.981328 2151.6364 5.200742
+4     7.792134  7.123608  820.1961 5.435763  4.675082  805.5341 5.835106
+5     7.238022  4.609019 1186.0054 5.714301 10.106793 1560.6216 5.364987
+6     7.645029  2.509769 1149.1498 5.806839  4.610180  796.3343 5.210153
+7     6.877813  7.551454 1562.6301 5.537406  3.479595  574.9364 5.079639
+8     7.114003  6.652762  310.3240 6.062578  8.714380 1644.4813 5.411506
+9     7.976955  7.247487 1070.3867 5.525849  8.532725 1762.1662 5.254599
+10    7.153058  9.614308 2093.6503 5.754107  6.126312  924.6833 5.278518
+ ...                                                                    
+209   1.547376  9.289337 1008.6276 5.425525  5.641899 1509.7739 4.161416
+210   7.463197  8.684018 1330.2520 5.645322  5.234479 1120.1113 4.745137
+            x8        x9
+1     9.597767  728.6822
+2     5.192228  479.1809
+3     9.159912  258.1247
+4     7.823535 2402.0151
+5     5.482664 1034.3464
+6     3.673911  972.7722
+7     9.114918  724.4559
+8     6.916947  763.1929
+9     7.790228 1411.3150
+10    8.606453  645.7784
+ ...                    
+209   9.844268 1395.3974
+210   9.565659 1878.3928
+
+GA results: 
+Iterations             = 181 
+Fitness function value = -1912.226 
+Solution = 
+           x1      x2       x3       x4       x5       x6       x7        x8
+[1,] 3.754987 12.8557 977.2372 1.840913 12.59293 78.18925 1.320999 0.6549695
+           x9
+[1,] 2212.037
+
+ --- ResistanceGA summary output ---  
+
+Optimized using: commuteDistance 
+
+Objective function: LL 
+
+Surfaces included in optimization: 
+EucDistWater_Total PersistForestCover_Total Silt_Total 
+
+k =  10 
+
+Minimum AIC: 3844.45202129196 
+
+AICc: 3847.59487843482 
+
+Pseudo marginal R-square (R2m): 0.543962740302265 
+Pseudo conditional R-square (R2c): 0.832295954513875 
+
+Log Likelihood: -1912.22601064598 
+
+Optimized values for each surface: 
+3.754987 12.8557 977.2372 1.840913 12.59293 78.18925 1.320999 0.6549695 2212.037 
+
+
+----- Final MLPE model fit using REML ----- 
+Linear mixed model fit by REML ['lmerMod']
+
+REML criterion at convergence: 3834.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.8775 -0.5294  0.0168  0.5338  5.0216 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ pop      (Intercept) 0.2934   0.5417  
+ Residual             0.1686   0.4106  
+Number of obs: 3240, groups:  pop, 81
+
+Fixed effects:
+             Estimate Std. Error t value
+(Intercept) 46.388631   0.120591  384.68
+cd           0.739368   0.009048   81.72
+
+Correlation of Fixed Effects:
+   (Intr)
+cd 0.000 
+
+
+Optimization took 16935.949 seconds to complete 

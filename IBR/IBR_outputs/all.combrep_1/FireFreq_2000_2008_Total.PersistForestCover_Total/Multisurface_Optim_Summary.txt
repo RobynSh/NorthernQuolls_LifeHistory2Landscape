@@ -1,0 +1,90 @@
+Summary from multisurface optimization run conducted on 2022-02-21 
+ --- GA package summary output ---  
+
+
+── [1mGenetic Algorithm[22m ─────────────────── 
+
+GA settings: 
+Type                  =  real-valued 
+Population size       =  210 
+Number of generations =  1000 
+Elitism               =  10 
+Crossover probability =  0.85 
+Mutation probability  =  0.125 
+Search domain = 
+        x1   x2      x3   x4   x5      x6
+lower 1.00  0.5 1.0e-03 1.00  0.5 1.0e-03
+upper 9.99 14.5 2.5e+03 9.99 14.5 2.5e+03
+Suggestions = 
+            x1        x2        x3       x4        x5        x6
+1     5.539926 12.089646  342.1585 5.322313  8.182587 1345.8515
+2     5.566387  9.759086 1220.5227 6.074588  8.926586  947.1829
+3     5.457538  7.477153 2274.3577 5.557543  9.796313 1348.1627
+4     1.369146  5.090903 1928.3553 5.767335  3.999257 2186.7354
+5     5.582904  8.237821 1079.0736 5.282340  9.797883 1203.4017
+6     5.539926 12.089646  342.1585 5.482396  6.197725  925.0949
+7     7.171844 14.201736  604.4654 4.584483  8.817665 1934.5481
+8     5.576874 10.950881  695.8008 2.474827 10.713314  495.4320
+9     5.425797  8.946114 1052.3030 5.969482  2.974713 1377.4785
+10    5.650479 11.872033 1120.0170 5.320488  7.181799 1511.8433
+ ...                                                           
+209   5.657148  4.294912 1420.8629 6.522906  7.407027 1094.4568
+210   5.420144  9.834943 1119.1895 3.343006  9.193503 2084.5249
+
+GA results: 
+Iterations             = 55 
+Fitness function value = -1987.02 
+Solution = 
+           x1        x2       x3       x4       x5       x6
+[1,] 7.147954 0.5188682 1016.668 5.601873 4.682809 977.8259
+
+ --- ResistanceGA summary output ---  
+
+Optimized using: commuteDistance 
+
+Objective function: LL 
+
+Surfaces included in optimization: 
+FireFreq_2000_2008_Total PersistForestCover_Total 
+
+k =  7 
+
+Minimum AIC: 3988.03943121111 
+
+AICc: 3989.57367778645 
+
+Pseudo marginal R-square (R2m): 0.550634139466302 
+Pseudo conditional R-square (R2c): 0.831725455461714 
+
+Log Likelihood: -1987.01971560555 
+
+Optimized values for each surface: 
+7.147954 0.5188682 1016.668 5.601873 4.682809 977.8259 
+
+
+----- Final MLPE model fit using REML ----- 
+Linear mixed model fit by REML ['lmerMod']
+
+REML criterion at convergence: 3983.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-7.0163 -0.5396  0.0232  0.5372  4.9061 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ pop      (Intercept) 0.2988   0.5466  
+ Residual             0.1767   0.4203  
+Number of obs: 3240, groups:  pop, 81
+
+Fixed effects:
+             Estimate Std. Error t value
+(Intercept) 46.388631   0.121692   381.2
+cd           0.760247   0.009635    78.9
+
+Correlation of Fixed Effects:
+   (Intr)
+cd 0.000 
+
+
+Optimization took 4069.02999999999 seconds to complete 
