@@ -1,4 +1,6 @@
-[![DOI](https://zenodo.org/badge/520347690.svg)](https://zenodo.org/badge/latestdoi/520347690)
+<p align="center">
+    [![DOI](https://zenodo.org/badge/520347690.svg)](https://zenodo.org/badge/latestdoi/520347690)
+</p>
 
 <p align="center">
 <b><i>Linking life history to landscape for threatened species conservation in a multi-use region</i></b>
