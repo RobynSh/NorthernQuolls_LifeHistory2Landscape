@@ -32,14 +32,17 @@ The remaining sub folders contain data used throughout the different analyses, a
 * **Rasters_5km:** This folder contains a subset of the rasters described above, that have been further aggregated to a 5 km resolution (for Isolation-By-Resistance modelling). More detials are in the README file under **IBR**.
 
 
+&nbsp;
+
+
 <p align="center">
-<b><i>Spatial layers explored in this study with associated acronyms, the hypothesised mechanism driving spatial-environmental associations, and how these link to the life cycle/demography of the northern quoll (numbers match above figure).</i></b>
+<b><i>Spatial layers explored in this study:</i></b>
 </p>
 <div align="center">
     <img src="Figs/Paper_Figure2.png" width="700px"</img> 
 </div>
 
-##### The specific hypotheses include HS= habitat suitability, tested using Species Distribution Modelling; IBB= isolation-by-barrier, environmental associations tested using Generalised Dissimilarity Modelling (GDM); IBR= isolation-by-resistance, tested using linear mixed effects models with MLPE; IBE= isolation-by-environment, tested using GDM.
+##### Raster layers with associated acronyms, the hypothesised mechanism driving spatial-environmental associations, and how these link to the life cycle/demography of the northern quoll (numbers match above figure).The specific hypotheses include HS= habitat suitability, tested using Species Distribution Modelling; IBB= isolation-by-barrier, environmental associations tested using Generalised Dissimilarity Modelling (GDM); IBR= isolation-by-resistance, tested using linear mixed effects models with MLPE; IBE= isolation-by-environment, tested using GDM.
 
 
 
