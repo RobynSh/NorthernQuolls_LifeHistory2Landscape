@@ -10,8 +10,7 @@
 </div>
 
 
-## **Complete code for Conservation Biology paper**
-### *doi: 10.1111/cobi.13989*
+### **Complete code for Conservation Biology paper (Article DOI: 10.1111/cobi.13989)
 
 This repository contains R code, data and outputs for all analyses presented in the paper. The analyses are split into the following folders to reflect the main sections/subheadings in the paper (presented in order of analysis - note that outputs generated are sometimes used as inputs in the next step/s, so the order of analysis matters):
 * **SDM:**
