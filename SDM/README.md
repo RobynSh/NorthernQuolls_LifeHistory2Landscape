@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://zenodo.org/badge/520347690.svg">
+</p>
+
+<p align="center">
 <b><i>Species Distribution Modelling: Generating a habitat suitability map for D. hallucatus</i></b>
 </p>
 <div align="center">
