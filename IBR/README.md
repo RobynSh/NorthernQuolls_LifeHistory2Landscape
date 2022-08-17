@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://zenodo.org/badge/520347690.svg">
+</p>
+
+<p align="center">
 <b><i>Isolation-By-Resistance: MLPE model selection/layer optimisation and Circuitscape for D. hallucatus</i></b>
 </p>
 <div align="center">
