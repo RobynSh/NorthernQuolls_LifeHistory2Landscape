@@ -2,7 +2,7 @@
 <b><i>Isolation-By-Environment: Generalised Dissimilarity Modelling for D. hallucatus</i></b>
 </p>
 <div align="center">
-    <img src="IBR_outputs/Paper_Figure6.png" width="700px"</img> 
+    <img src="IBE_outputs/Paper_Figure6.png" width="700px"</img> 
 </div>
 
 
