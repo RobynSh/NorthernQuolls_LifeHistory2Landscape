@@ -1,5 +1,5 @@
 <p align="center">
-    [![DOI](https://zenodo.org/badge/520347690.svg)](https://zenodo.org/badge/latestdoi/520347690)
+[![DOI](https://zenodo.org/badge/520347690.svg)](https://zenodo.org/badge/latestdoi/520347690)
 </p>
 
 <p align="center">
