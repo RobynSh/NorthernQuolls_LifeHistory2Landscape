@@ -69,7 +69,7 @@ The remaining sub folders contain data used throughout the different analyses, a
 
 
 ### Packages info
-| package         | * version      | date (UTC) | lib | source)                                  |
+| package         | * version      | date (UTC) | lib | source                                   |
 |-----------------|----------------|------------|-----|------------------------------------------|
 | abind           | 1.4-5          | 2016-07-21 | [1] | CRAN (R 4.1.0)                           |
 | ade4            | * 1.7-18       | 2021-09-16 | [1] | CRAN (R 4.1.0)                           |
