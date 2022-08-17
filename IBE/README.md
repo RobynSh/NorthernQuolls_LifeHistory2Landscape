@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://zenodo.org/badge/520347690.svg">
+</p>
+
+<p align="center">
 <b><i>Isolation-By-Environment: Generalised Dissimilarity Modelling for D. hallucatus</i></b>
 </p>
 <div align="center">
