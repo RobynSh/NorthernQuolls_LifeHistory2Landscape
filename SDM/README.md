@@ -2,7 +2,7 @@
 <b><i>Species Distribution Modelling: Generating a habitat suitability map for D. hallucatus</i></b>
 </p>
 <div align="center">
-    <img src="SDM_outputs/Paper_Figure3.png" width="700px"</img> 
+    <img src="../Figs/Paper_Figure3.png" width="700px"</img> 
 </div>
 
 
