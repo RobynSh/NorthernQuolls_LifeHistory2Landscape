@@ -2,7 +2,7 @@
 <b><i>SNP filtering and sample cleaning for D. hallucatus</i></b>
 </p>
 <div align="center">
-    <img src="Data/Quoll.png" width="300px"</img> 
+    <img src="../Figs/Quoll.png" width="300px"</img> 
 </div>
 
 

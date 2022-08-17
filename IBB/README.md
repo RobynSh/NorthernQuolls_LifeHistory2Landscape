@@ -2,7 +2,7 @@
 <b><i>Isolation-By-Distance: Genetic clustering analysis and population genetic summary statistics for D. hallucatus</i></b>
 </p>
 <div align="center">
-    <img src="IBB_outputs/Paper_Figure4.png" width="500px"</img> 
+    <img src="../Figs/Paper_Figure4.png" width="500px"</img> 
 </div>
 
 
@@ -33,7 +33,6 @@ This code generates the following files (output to the *IBB_outputs* folder):
 * *Dh.snmf* - Folder containing data from LEA/snmf run
 * *Dh.snmfProject* - Summary of snmf run
 * *LEAPieBar_K2.Dh.pdf* - Figure: LEA Structure-like barchart and ancestry proportions displayed as pie charts on a map of the study region
-* *Paper_Figure4.png* - Figure 4 in the paper
 * *snmf.obj.FullDat.best100reps.K1_7.Dh.R* - LEA/snmf full analysis saved as an R object
 * *Tess.obj.FullDat.best100reps.K1_7.Dh.R* - Tess3R full analysis saved as an R object
 * *TessPieBar_K2.Dh.pdf* - Figure: Tess3r Structure-like barchart and ancestry proportions displayed as pie charts on a map of the study region   
