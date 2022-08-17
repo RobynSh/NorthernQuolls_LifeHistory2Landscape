@@ -45,21 +45,26 @@ The remaining sub folders contain data used throughout the different analyses, a
 ##### Raster layers with associated acronyms, the hypothesised mechanism driving spatial-environmental associations, and how these link to the life cycle/demography of the northern quoll (numbers match above figure).The specific hypotheses include HS= habitat suitability, tested using Species Distribution Modelling; IBB= isolation-by-barrier, environmental associations tested using Generalised Dissimilarity Modelling (GDM); IBR= isolation-by-resistance, tested using linear mixed effects models with MLPE; IBE= isolation-by-environment, tested using GDM.
 
 
-## R Session Information for all analyses:
+&nbsp;
 
-─ Session info ────────────────────────────────────────────────────────────────────────────
- setting  value
- version  R version 4.1.2 (2021-11-01)
- os       macOS Monterey 12.5
- system   x86_64, darwin17.0
- ui       RStudio
- language (EN)
- collate  en_AU.UTF-8
- ctype    en_AU.UTF-8
- tz       Australia/Sydney
- date     2022-08-17
- rstudio  2021.09.1+372 Ghost Orchid (desktop)
- pandoc   2.14.0.3 @ /Applications/RStudio.app/Contents/MacOS/pandoc/ (via rmarkdown)
+***
+
+## **R Session Information for all analyses:**
+
+### Session info
+| setting  | value                                                                       |
+|----------|-----------------------------------------------------------------------------|
+| version  | R version 4.1.2 (2021-11-01)                                                |
+| os       | macOS Monterey 12.5                                                         |
+| system   | x86_64, darwin17.0                                                          |
+| ui       | RStudio                                                                     |
+| language | (EN)                                                                        |
+| collate  | en_AU.UTF-8                                                                 |
+| ctype    | en_AU.UTF-8                                                                 |
+| tz       | Australia/Sydney                                                            |
+| date     | 2022-08-17                                                                  |
+| rstudio  | 2021.09.1+372 Ghost Orchid (desktop)                                        |
+| pandoc   | 2.14.0.3 @ /Applications/RStudio.app/Contents/MacOS/pandoc/ (via rmarkdown) |
 
 ─ Packages ────────────────────────────────────────────────────────────────────────────────
  package         * version    date (UTC) lib source
